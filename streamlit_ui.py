@@ -39,7 +39,7 @@ if uploaded_file is not None:
     st.image(image, caption='Uploaded MRI Image', use_column_width=True)
     st.write("")
     st.write("Classifying...")
-    predicted_class, confidence = predict(image, model)
+    predicted_class= predict(image, model)
     st.write(f'Prediction: {predicted_class}')
 
 # Plotting function
