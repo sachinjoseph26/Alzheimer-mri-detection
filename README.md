@@ -1,1 +1,1 @@
-# Here is the code for Alxheimer detection using MRI images
+# Here is the code for Alzheimer detection using MRI images
